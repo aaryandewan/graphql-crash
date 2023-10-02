@@ -8,7 +8,7 @@ export const typeDefs = `#graphql
 
     type Review {
         id: ID!,
-        rating: Integer!,
+        rating: Int!,
         content: String!
     }
 
